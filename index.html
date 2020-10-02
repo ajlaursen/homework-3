@@ -16,6 +16,26 @@
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <form>
+          <label for="length-collector">Enter password length between 8-128:</label>          <input class="length" type="text" placeholder="enter length here">
+        </form>
+        <h5>Please check which characters to include</h5>
+        <div class="checks">
+          <label  class="label">Enable UpperCase Alphabets :</label>
+          <input type="checkbox" id="upper" checked class="val"><br>
+      </div>
+      <div class="checks">
+          <label  class="label">Enable LowerCase Alphabets :</label>
+          <input type="checkbox" id="lower" checked class="val"><br>
+      </div>
+      <div class="checks">
+          <label  class="label">Enable Numbers :</label>
+          <input type="checkbox" id="number" checked class="val"><br>
+      </div>
+      <div class="checks">
+          <label  class="label">Enable Symbols :</label>
+          <input type="checkbox" id="symbol" checked class="val"><br><br> 
+      </div>
         <div class="card-body">
           <textarea
             readonly
